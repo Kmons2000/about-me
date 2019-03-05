@@ -1,0 +1,10 @@
+html{
+    font-family: 'Mukta', sans-serif;
+    background: hotpink;
+    color: purple;
+}
+
+body h1{
+    font-weight:bold;
+    font-size:250%;
+}

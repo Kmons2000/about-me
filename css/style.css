@@ -11,5 +11,6 @@ body h1{
 
 nav a{
     border: 3px solid purple;
-    font-size: 150%
+    font-size: 150%;
+    text-decoration: none;
 }

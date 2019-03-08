@@ -1,12 +1,21 @@
+@keyframes example{
+    from {background-color: hotpink;}
+    to {background-color: pink;}
+}
 html{
     font-family: 'Mukta', sans-serif;
     background: hotpink;
     color: purple;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 body h1{
     font-weight:bold;
     font-size:50px;
+    font-family:sans-serif;
 }
 
 nav a{
@@ -28,9 +37,9 @@ ol {
     border-top:2px solid black;
     border-right:2px solid black;
     font-size:25px;
-    padding:10px;
-    margin-left:500px;
-    margin-right:500px;
+    padding:0px;
+    margin-left:33%;
+    margin-right:33%;
     list-style-position: inside;
     box-shadow: 10px 10px 10px 6px rgba(0,0,0,0.56);
 }
@@ -47,6 +56,7 @@ ul{
     margin-right:400px;
     list-style-position: inside;
     box-shadow: 10px 10px 10px 6px rgba(0,0,0,0.56);
+    color:lightblue;
 }
 
 a:hover {
@@ -56,6 +66,7 @@ a:hover {
 
 footer {
     text-align: center;
+    clear: both;
 }
 
 ol li:nth-child(1),
@@ -75,4 +86,18 @@ ol li:nth-child(8) {
 ol li:nth-child(5),
 ol li:nth-child(6) {
     background-color:white;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.borderlands {
+    margin-top: 25px;
+}
+
+.bl {
+    margin-bottom: 25px;
 }

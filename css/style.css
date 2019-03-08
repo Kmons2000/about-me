@@ -20,32 +20,40 @@ li {
 }
 
 p.lists{
+    font-weight: bold;
     font-size:30px;
     text-align:center;
 }
 
 ol {
     text-align:center;
-    border-left:1px solid black;
-    border-bottom:7px solid black;
-    border-top:1px solid black;
-    border-right:7px solid black;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+    border-right:2px solid black;
     font-size:25px;
     padding:10px;
     margin-left:500px;
     margin-right:500px;
     list-style-position: inside;
+    box-shadow: 10px 10px 10px 6px rgba(0,0,0,0.56);
 }
 
 ul{
     text-align:center;
-    border-left:1px solid black;
-    border-bottom:7px solid black;
-    border-top:1px solid black;
-    border-right:7px solid black;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+    border-right:2px solid black;
     font-size:25px;
     padding:10px;
     margin-left:400px;
     margin-right:400px;
     list-style-position: inside;
+    box-shadow: 10px 10px 10px 6px rgba(0,0,0,0.56);
+}
+
+a:hover {
+    background-color:purple;
+    color:white;
 }

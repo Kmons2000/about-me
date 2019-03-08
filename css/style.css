@@ -6,11 +6,46 @@ html{
 
 body h1{
     font-weight:bold;
-    font-size:250%;
+    font-size:50px;
 }
 
 nav a{
     border: 3px solid purple;
-    font-size: 150%;
+    font-size: 25px;
     text-decoration: none;
+}
+
+li {
+   
+}
+
+p.lists{
+    font-size:30px;
+    text-align:center;
+}
+
+ol {
+    text-align:center;
+    border-left:1px solid black;
+    border-bottom:7px solid black;
+    border-top:1px solid black;
+    border-right:7px solid black;
+    font-size:25px;
+    padding:10px;
+    margin-left:500px;
+    margin-right:500px;
+    list-style-position: inside;
+}
+
+ul{
+    text-align:center;
+    border-left:1px solid black;
+    border-bottom:7px solid black;
+    border-top:1px solid black;
+    border-right:7px solid black;
+    font-size:25px;
+    padding:10px;
+    margin-left:400px;
+    margin-right:400px;
+    list-style-position: inside;
 }

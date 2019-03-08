@@ -15,10 +15,6 @@ nav a{
     text-decoration: none;
 }
 
-li {
-   
-}
-
 p.lists{
     font-weight: bold;
     font-size:30px;
@@ -56,4 +52,33 @@ ul{
 a:hover {
     background-color:purple;
     color:white;
+}
+
+footer {
+    text-align: center;
+}
+
+ol li:nth-child(1),
+ol li:nth-child(2) {
+    background-color:lightblue;
+}
+
+ol li:nth-child(3),
+ol li:nth-child(4) {
+    background-color:lightpink;
+}
+
+ol li:nth-child(5),
+ol li:nth-child(6) {
+    background-color:white;
+}
+
+ol li:nth-child(7),
+ol li:nth-child(8) {
+    background-color:lightpink;
+}
+
+ol li:nth-child(9),
+ol li:nth-child(10) {
+    background-color:lightblue;
 }

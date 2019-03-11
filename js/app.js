@@ -6,7 +6,9 @@ var food = promptRequired('What is your favorite food?');
 console.log(food + ' is their favorite food.');
 var music = promptRequired('What music genre do you enjoy?');
 console.log(music + ' is their favorite music.');
+var answers = ('Salutations ' + programmer + ', ' + game + ' sounds like an interesting game, ' + food + ' sounds delicious, and ' + music + ' sounds good to me!');
 alert('Salutations ' + programmer + ', ' + game + ' sounds like an interesting game, ' + food + ' sounds delicious, and ' + music + ' sounds good to me!');
+
 function answerIsValid(answer) {
   if (!answer) {
     return false;
@@ -27,3 +29,6 @@ function promptRequired(message) {
   }
   return result;
 }
+
+var results = document.getElementById('results');
+results.innerHTML=answers;

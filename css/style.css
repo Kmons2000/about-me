@@ -92,12 +92,15 @@ img {
     width: 33.33%;
     height: 50%;
     float: left;
-}
-
-.borderlands {
     margin-top: 25px;
 }
 
-.bl {
-    margin-top: 25px;
+.image-row {
+    clear:both;
+    overflow:hidden;
+}
+
+.video {
+    text-align:center;
+    margin-top:20px;
 }

@@ -32,3 +32,4 @@ function promptRequired(message) {
 
 var results = document.getElementById('results');
 results.innerHTML=answers;
+

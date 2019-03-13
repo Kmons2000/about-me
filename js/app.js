@@ -1,3 +1,4 @@
+'use strict';
 var programmer = promptRequired('What is your name?');
 console.log(programmer + ' is their name.');
 var game = promptRequired('What is your favorite video game?');
@@ -32,3 +33,4 @@ function promptRequired(message) {
 
 var results = document.getElementById('results');
 results.innerHTML=answers;
+

@@ -122,3 +122,4 @@ answers4.innerText=' You answered: ' + myHeight + answer4;
 answers5.innerText=' You answered: ' + meFunny + answerYes;
 answers6.innerText=' You answered: ' + myPets + answer6;
 answers7.innerText=' You answered: ' + favGame + answer7;
+

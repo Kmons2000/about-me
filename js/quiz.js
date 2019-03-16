@@ -91,6 +91,25 @@ function seventhQuestion() {
   } return;
 }
 
+var answerYes ='. Correct answer was yes!';
+var answer4 ='. Correct answer was no!';
+var answer6 ='. Correct answer was 1!';
+var answer7 ='. Correct answer was Celeste and Borderlands 2!';
+var answers1 = document.getElementById('name');
+var answers2 = document.getElementById('age');
+var answers3 = document.getElementById('color');
+var answers4 = document.getElementById('height');
+var answers5 = document.getElementById('funny');
+var answers6 = document.getElementById('pet');
+var answers7 = document.getElementById('pet');
+answers1.innerText=' You answered: ' + myName + answerYes;
+answers2.innerText=' You answered: ' + myAge + answerYes;
+answers3.innerText=' You answered: ' + favColor + answerYes;
+answers4.innerText=' You answered: ' + myHeight + answer4;
+answers5.innerText=' You answered: ' + meFunny + answerYes;
+answers6.innerText=' You answered: ' + myPets + answer6;
+answers7.innerText=' You answered: ' + favGame + answer7;
+
 function start() {
   firstQuestion();
   secondQuestion();
@@ -103,23 +122,3 @@ function start() {
 }
 
 start();
-
-var answerYes ='. Correct answer was yes!';
-var answer4 ='. Correct answer was no!';
-var answer6 ='. Correct answer was 1!';
-var answer7 ='. Correct answer was Celeste and Borderlands 2!';
-var answers = document.getElementById('name');
-var answers2 = document.getElementById('age');
-var answers3 = document.getElementById('color');
-var answers4 = document.getElementById('height');
-var answers5 = document.getElementById('funny');
-var answers6 = document.getElementById('pet');
-var answers7 = document.getElementById('game');
-answers.innerText=' You answered: ' + myName + answerYes;
-answers2.innerText=' You answered: ' + myAge + answerYes;
-answers3.innerText=' You answered: ' + favColor + answerYes;
-answers4.innerText=' You answered: ' + myHeight + answer4;
-answers5.innerText=' You answered: ' + meFunny + answerYes;
-answers6.innerText=' You answered: ' + myPets + answer6;
-answers7.innerText=' You answered: ' + favGame + answer7;
-

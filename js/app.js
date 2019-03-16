@@ -1,15 +1,36 @@
 'use strict';
-var programmer = prompt('What is your name?');
+
+function answerIsValid(answer) {
+  if (!answer) {
+    return false;
+  } 
+  answer = answer.trim();
+  if (!answer) {
+    return false;
+  } 
+  if (answer === 'null' || answer === 'undefined') {
+    return false;
+  }   
+  return true;
+}
+function promptRequired(message) {
+  var result = prompt(message).trim();
+  while (!answerIsValid(result)) {
+    result = prompt('REQUIRED: ' + message);
+  }
+  return result;
+}
+
+var programmer = promptRequired('What is your name?');
 console.log(programmer + ' is their name.');
-var game = prompt('What is your favorite video game?');
+var game = promptRequired('What is your favorite video game?');
 console.log(game + ' is their favorite video game.');
-var food = prompt('What is your favorite food?');
+var food = promptRequired('What is your favorite food?');
 console.log(food + ' is their favorite food.');
-var music = prompt('What music genre do you enjoy?');
+var music = promptRequired('What music genre do you enjoy?');
 console.log(music + ' is their favorite music.');
 var answers = ('Salutations ' + programmer + ', ' + game + ' sounds like an interesting game, ' + food + ' sounds delicious, and ' + music + ' sounds good to me!');
 alert('Salutations ' + programmer + ', ' + game + ' sounds like an interesting game, ' + food + ' sounds delicious, and ' + music + ' sounds good to me!');
 
 var results = document.getElementById('results');
-results.innerHTML=answers;
-
+results.innerText=answers;
